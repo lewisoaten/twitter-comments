@@ -1,0 +1,37 @@
+=== Description ===
+This project creates a comment area for your website which uses the power of twitter to gather comments and drive extra traffic.
+
+Users comment through a text field which directs them to post a specially formatted (human-readable) post on twitter. The post has a bit.ly link back to the page which was being commented. The posts are displayed under the comments in the order they were made with a link to view in Twitter.
+
+Once a post is made, all the commenters followers will see their thoughts on your page or website and potentially click on the bit.ly link to visit your website.
+
+=== Features ===
+ - Completely client-side, doesn't require any server-side code
+ - Fast and doesn't slow down your existing page-load time
+ - Very customisable
+ - Very simple
+ - Visitors can comment from your website
+
+=== Installation ===
+1) Download the source from http://github.com/caecus/twitter-comments .
+2) Copy the images and scripts folder to your website.
+3) Replace YOUR_BIT.LY_LOGIN and YOUR_BIT.LY_API in twitter-comments.js with your Bit.ly login name and API key.
+3) Copy the JQuery script, JQuery Tweet script and Twitter Comments script from index.html into your pages header.
+4) Copy the Comment Section from index.html to where you would like the posts to display on your page.
+
+=== Pre-requisites ===
+This script comes packaged up with all pre-requisites.
+ - JQuery (http://jquery.com/)
+ - Custom version of Tweet (http://github.com/caecus/tweet).
+
+=== Contribute ===
+Bring your code slinging skills to Github and help us develop new features!
+  
+http://github.com/caecus/twitter-comments/
+
+git clone git://github.com/caecus/twitter-comments.git
+
+Report any bugs here: http://github.com/caecus/twitter-comments/issues
+
+=== Licensed under the MIT ===
+http://www.opensource.org/licenses/mit-license.php
